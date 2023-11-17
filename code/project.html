@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="headind text-center">
+        <h1>Beginner Survey Form</h1>
+        <h2>Personal Details</h2>
+        <form action="form.php">
+        </form>
+    </div>
+    <div class="form.item">
+        <label for="name"> Name:</label>
+        <input type="text" name="user_name" id="name-label" placeholder="Enter your name">
+        <br>
+        <br>
+        <label for="address"> Address:</label>
+        <input type="text" name="user_addess" id="user-address" placeholder="Enter your address">
+        <br>
+        <br>
+        <label for="country"> Country:</label>
+        <select name="user_city" id="city">
+            <option value="no-country">Select your country</option>
+            <option value="India">India</option>
+            <option value="Other">Other</option>
+        </select>        
+        <br>
+        <br>
+        <label for="Email"> Email:</label>
+        <input type="email" name="user_email" id="user-email" placeholder="Enter your email">
+        <br>
+        <br>
+        <label for="number"> Number:</label>
+        <input type="phone" name="user_number" id="user-number" placeholder="Enter your number">.
+        +
+        <div class=""></div>
+        <br>
+        <br>
+        <label for="gender"> Gender</label>
+        <select name="user_gender" id="gender">
+            <option value="no-gender">Select your gender</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="prefer not to say">prefer not to say</option>
+        </select>
+        <br>
+        <br>
+        <label for="About"> About: </label><br>
+        <textarea name="explain" id="explain" cols="30" rows="10" placeholder=" Tell about yourself?"></textarea>
+    </div>
+</body>
+
+</html>
