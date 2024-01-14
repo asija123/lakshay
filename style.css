@@ -1,54 +1,57 @@
 .container{
-    background-color:beige;
+    background-color: rgb(26, 25, 25);
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.box{
+    border: 0.1px solid white;
+    border-radius: 10px;
     display: flex;
     flex-direction: column;
-    width: 100%;
-    height: 700px;
-
-}
-.header{
-    display: flex;
-    justify-content: space-evenly;
-}
-.box1{
-    border: 2px solid black;
-    display: flex;
     margin: 5px;
-    padding: 4px;
-    /* width: 500px; */
-    
-
+    padding: 2px;
+    /* box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.317); */
+    /* box-shadow: 1px 1px 5px white; */
+    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.482); 
 }
-img{
-    width: 200px;
-}
-.box2{
-    justify-content:right;
-    margin: 4px;
+.upperbox{
+    background-color: rgba(3, 3, 3, 0.416);
+    color: white;
     padding: 3px;
+    margin: 3px;
+
 }
-.leftbox{
-    margin: 5px;
-    padding: 4px;
-    position: relative;
+input{
+    background-color: rgba(3, 3, 3, 0.416);
+    color: white;
+    border: none;
+    text-align: end;
+    margin: 5px 10px 5px 0;
+    width: 100%;
 }
-.abc{
+button{
+    border: none;
+    border-radius: 50%;
+    background-color: rgba(3, 3, 3, 0.416);
+    color: white;
+    padding: 10px 15px;
+    box-shadow: 1px 1px 1px 1px rgba(255, 255, 255, 0.317);
+    margin: 3px;
+    width: 40px;
+    height: 40px;
+    font-size: 15px;
     display: flex;
     justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
-.footer{
-    color: black;
-    position: absolute;
-    margin-top: 100px;
+button:hover{
+    background-color: red;
 }
-@media(max-width: 720px){
-    .container{
-        flex-direction: column;
-    }
-}
-@media(max-width:450){
-    .box2{
-        flex-direction: column;
-    }
-}
+.lowerbox{
 
+}
