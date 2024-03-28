@@ -1,53 +1,569 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculator</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div class="container">
-      <div class="box">
-        <div class="upperbox">
-          <input class="input" type="text" placeholder="0" id="inputbox" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2396042c63.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main_conatiner">
+        <div class="head">
+            <div class="h-1">
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>info@company.com</span>
+                </p>
+                <p>
+                    <span>|</span>
+                </p>
+                <p>
+                    <i class="fa-regular fa-map"></i>
+                    <span>Sunny isles beach,Ft 33816</span>
+                </p>
+            </div>
+                <div class="h-2">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
         </div>
-        <div class="lowerbox">
-          <table>
-            <tr>
-              <td><button style="color: green">AC</button></td>
-              <td><button>C</button></td>
-              <td><button>%</button></td>
-              <td><button>/</button></td>
-            </tr>
-            <tr>
-              <td><button>7</button></td>
-              <td><button>8</button></td>
-              <td><button>9</button></td>
-              <td><button>*</button></td>
-            </tr>
-            <tr>
-              <td><button>4</button></td>
-              <td><button>5</button></td>
-              <td><button>6</button></td>
-              <td><button>-</button></td>
-            </tr>
-            <tr>
-              <td><button>1</button></td>
-              <td><button>2</button></td>
-              <td><button>3</button></td>
-              <td><button>+</button></td>
-            </tr>
-            <tr>
-              <td><button>00</button></td>
-              <td><button>0</button></td>
-              <td><button>.</button></td>
-              <td><button style="background-color: orange">=</button></td>
-            </tr>
-          </table>
+
+        <div class="name">
+            <div class="a-1">
+                <p>VILLA</p>
+            </div>
+            <div class="b-1">
+                <button>
+                    Home
+                </button>
+                <button>
+                    Properties
+                </button>
+                <button>
+                    Properties Details
+                </button>
+                <button>
+                    Contact us
+                </button>
+                <!-- <button class="degin">
+                    <i class="fa-solid fa-calendar-days"></i>
+                <span>Schedule a visit</span>
+                </button> -->
+                <div class="visit">
+                    <div class="cal">
+                        <i class="fa-solid fa-calendar-days"></i>
+                    </div>
+                    <div class="area">
+                        <button>
+                            Schedule a visit
+                        </button>
+                    </div>
+                    <button class="mode">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                </div>
+            </div>
         </div>
-      </div>
+
+        <div class="content">
+            <div class="v1">
+                <img class="villaImg" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" srcset="">
+            </div>
+           
+            <div class="villa">
+                
+                <p class="set">Toronto,Canada</p>
+                <span>
+                    HURRY!
+                </span>
+                <span>GET THE BEST</span>
+                <span>VILLA FOR YOU</span>
+                
+
+            </div>
+        </div>
+        <div class="next_page">
+            <div class="lakshay">
+                <div class="np-1">
+                    <img src="https://images.unsplash.com/photo-1533391120950-2d65c72e5969?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8dmlsbGElMjBpbnRlcmlvciUyMGRlc2lnbiUyMGNoYWlyfGVufDB8fDB8fHww" 
+                    alt="chairs">
+                </div>
+
+                <div class="coder">
+                    <i class="fa-solid fa-file-pen"></i>
+                </div>
+
+            </div>
+            
+            
+
+            <div class="np-2">
+                <p id="f-1">|FEATURED</p>
+                <div class="l-1">
+                    <p>Best
+                    </p>
+                    <span>Appartment &</span>
+                    <p>Sea View</p>
+                </div>
+
+                <div class="n-1">
+                    <p id="b-1">Best useful links?</p>
+                  
+                    <div class="n-2">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolor magni eos delectus nam repellendus ullam eum! Odio nesciunt magnam minus dolore rem eum, architecto velit inventore ipsum molestias quas.</p>
+                        <p>How does this work?</p>
+                    </div>
+                    <p id="w-1">Why is Villa Agency the best?</p>
+                </div>
+            </div>
+
+            <div class="np-3">
+               <div class="p-1">
+                <div class="i-1">
+                    <i class="fa-brands fa-slack"></i>
+                </div>
+                <div class="i-2">
+                    <p>
+                        <span>250 m2</span>
+                        <p id="t-1">Total Flat Space</p>
+                    </p>
+                </div>
+               </div>
+               <div class="p-2">
+                <div class="i-3">
+                    <i class="fa-solid fa-file-contract"></i>
+                </div>
+                <div class="i-4">
+                    <p>
+                        <span>Contract
+                        </span>
+                        <p id="t-1">Contract Ready</p>
+                    </p>
+                </div>
+               </div>
+
+               <div class="p-3">
+                <div class="i-5">
+                    <i class="fa-solid fa-credit-card"></i>
+                </div>
+               <div class="i-6">
+                <p>
+                    <span>Payment</span>
+                    <p id="t-1">Payment Process </p>
+                </p>
+               </div>
+               </div>
+               <div class="p-4">
+                <div class="i-7">
+                    <i class="fa-solid fa-building-shield"></i>
+                </div>
+               <div class="i-8">
+                <p>
+                    <span>
+                        Safety
+                    </span>
+                    <p id="t-1">24/7 Under Control</p>
+                </p>
+               </div>
+               </div>
+                
+
+
+            </div>
+        </div>  
+
+        <div class="collide_image">
+            <div class="text">
+                <p id="video">|VIDEO VIEW</p>
+                <br>
+                <p>Get Closer View &</p>
+                <p>Different Feeling</p>
+            </div>
+            <div class="get-1">
+                <img src="https://media.istockphoto.com/id/683091430/photo/blur-background-interior-design-scandinavian-kitchen-with-sofa-and-table-wooden-parquet-floor.jpg?s=612x612&w=0&k=20&c=Mx5aVhH06QvwOjz8lqVsCC0_AgU6JVFERZNtYnQp7aI=" alt="villa">
+                
+            </div>
+
+            <div class="x-1">
+                <div class="play">
+                    <i class="fa-solid fa-play"></i>
+                </div>
+
+                
+                <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c29mYSUyMGltZ3xlbnwwfHwwfHx8MA%3D%3D" alt="villa" class="img-sofa">
+            </div>
+        </div>
+
+        <div class="exp">
+            <div class="build">
+                <div class="circle">
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+                <div class="num">
+                    <p>34</p>
+                </div>
+                <div class="now">
+                    <p>Buildings</p>
+                    <p>Finished Now</p>
+                </div>
+            </div>
+            <div class="build">
+                <div class="circle">
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+                <div class="num">
+                    <p>12</p>
+                </div>
+                <div class="now">
+                    <p>Year</p>
+                    <p>Experience</p>
+                </div>
+            </div>
+            <div class="build">
+                <div class="circle">
+                    <i class="fa-solid fa-circle"></i>
+                </div>
+                <div class="num">
+                    <p>24</p>
+                </div>
+                <div class="now">
+                    <p>Awwards</p>
+                    <p>won 2023</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="sal">
+            <div class="best">
+                <div class="deal">
+                    |Best Deal
+                </div>
+                <div class="Find">
+                    <div class="your">
+                        <p>Find Your Best Deal</p>
+                        <p>Right Now!</p>
+                    </div>
+                    <div class="Penthouse">
+                       <button>
+                        Apportment
+                       </button>
+                       <button>
+                        Villa House
+                       </button>
+                       <button>
+                        Penthouse
+                       </button>
+                    </div>
+                </div>
+
+                <div class="extra">
+                    <div class="floor">
+                        <div class="parking">
+                            <div class="space">
+                                Total Flat Space
+                            </div>
+                            <div class="m2">
+                                <p>185 m2</p>
+                            </div>
+                            
+                        </div>
+                        <div class="parking">
+                            <div class="space">
+                                Floor Number
+                            </div>
+                            <div class="m2">
+                                26th
+                            </div>
+                        </div>
+                        <div class="parking">
+                            <div class="space">
+                                Number of rooms
+                            </div>
+                            <div class="m2">
+                                4
+                            </div>
+                        </div>
+                        <div class="parking">
+                            <div class="space">
+                                Parking Avaiable
+                            </div>
+                            <div class="m2">
+                                Yes
+                            </div>
+                        </div>
+                        <div class="parking-1">
+                            <div class="space">
+                                Payment Process
+                            </div>
+                            <div class="m2">
+                                Bank
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="view">
+                        <img src="https://www.homelane.com/blog/wp-content/uploads/2022/11/villa-interior.jpg" alt="interior">
+
+                    </div>
+                    <div class="property">
+                        <p id="info">Extra info About Property</p>
+
+                        <div class="iqsum">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius id ipsum commodi? Reprehenderit sed esse sunt eum. Impedit, autem molestiae!</p>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit praesentium, distinctio adipisci voluptates aut alias quas provident ea aliquid atque.</p>
+                        </div>
+                        <div class="visit">
+                            <div class="cal">
+                                <i class="fa-solid fa-calendar-days"></i>
+                            </div>
+                            <div class="area">
+                                <button>
+                                    Schedule a visit
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="we">
+            <p id="color">|Properties</p>
+            <p>We Provide The</p>
+            <p>Best Property You</p>
+            <p>Like</p>
+        </div>
+
+        <div class="photo">
+            <div class="new">
+                <div class="lux">
+                    <img src="https://media.istockphoto.com/id/503044702/photo/illuminated-sky-and-outside-of-waterfront-buiding.jpg?s=612x612&w=0&k=20&c=xkDBkqmCVvhR4idfybXRb-yFS0KqOjqtikg_LtO4pzs=" alt="lux">
+                </div>
+                <div class="paise">
+                    <p id="dec">Luxury Vila</p>
+                    <p id="col">$2.344.000</p>
+                </div>
+                <div class="add">
+                    <p>18 New Street Miami,OR 97219</p>
+                </div>
+
+                <div class="bich">
+                    <div class="bed">
+                        <p id="room">Bedroom:
+                            <span id="alag">8</span>
+                        </p>
+                        
+                        <p id="room">Bathroom:
+                            <span id="alag">8</span>
+                        </p>
+                    </div>
+    
+                    <div class="flor">
+                        <p id="room">Area:
+                        <span id="alag">545m2</span>
+                        </p>
+                        <p id="room">Floor:
+                        <span id="alag">3</span>
+                        </p>
+                        <p id="room">Parking:
+                        <span id="alag">6 spots</span>
+                        </p>
+                    </div>
+
+                </div>
+               
+
+              <div class="bod"></div>
+
+                <div class="sch">
+                    <button>
+                        Schedule a visit
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="new">
+                <div class="lux">
+                    <img src="https://img.freepik.com/free-photo/design-house-modern-villa-with-open-plan-living-private-bedroom-wing-large-terrace-with-privacy_1258-169741.jpg" alt="lux">
+                </div>
+                <div class="paise">
+                    <p id="dec">Luxury Vila</p>
+                    <p id="col">$2.344.000</p>
+                </div>
+                <div class="add">
+                    <p>18 New Street Miami,OR 97219</p>
+                </div>
+
+                <div class="bich">
+                    <div class="bed">
+                        <p id="room">Bedroom:
+                            <span id="alag">8</span>
+                        </p>
+                        
+                        <p id="room">Bathroom:
+                            <span id="alag">8</span>
+                        </p>
+                    </div>
+    
+                    <div class="flor">
+                        <p id="room">Area:
+                        <span id="alag">545m2</span>
+                        </p>
+                        <p id="room">Floor:
+                        <span id="alag">3</span>
+                        </p>
+                        <p id="room">Parking:
+                        <span id="alag">6 spots</span>
+                        </p>
+                    </div>
+
+                </div>
+               
+
+              <div class="bod"></div>
+
+                <div class="sch">
+                    <button>
+                        Schedule a visit
+                    </button>
+                </div>
+
+            </div>
+
+            <div class="new">
+                <div class="lux">
+                    <img src="https://media.istockphoto.com/id/506903162/photo/luxurious-villa-with-pool.jpg?s=612x612&w=0&k=20&c=Ek2P0DQ9nHQero4m9mdDyCVMVq3TLnXigxNPcZbgX2E=" alt="lux">
+                </div>
+                <div class="paise">
+                    <p id="dec">Luxury Vila</p>
+                    <p id="col">$2.344.000</p>
+                </div>
+                <div class="add">
+                    <p>18 New Street Miami,OR 97219</p>
+                </div>
+
+                <div class="bich">
+                    <div class="bed">
+                        <p id="room">Bedroom:
+                            <span id="alag">8</span>
+                        </p>
+                        
+                        <p id="room">Bathroom:
+                            <span id="alag">8</span>
+                        </p>
+                    </div>
+    
+                    <div class="flor">
+                        <p id="room">Area:
+                        <span id="alag">545m2</span>
+                        </p>
+                        <p id="room">Floor:
+                        <span id="alag">3</span>
+                        </p>
+                        <p id="room">Parking:
+                        <span id="alag">6 spots</span>
+                        </p>
+                    </div>
+
+                </div>
+               
+
+              <div class="bod"></div>
+
+                <div class="sch">
+                    <button>
+                        Schedule a visit
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="touch">
+
+            <div class="with">
+                <img src="https://www.shutterstock.com/image-illustration/blur-background-interior-design-minimalist-600nw-658996744.jpg" alt="img">
+            </div>
+
+            <div class="our">
+                <p id="blur">|Contact us</p>
+                <p>Get In Touch With</p>
+                <p>Our Agents</p>
+            </div>
+            <div class="Sunny">
+                <img src="https://www.google.com/maps/d/thumbnail?mid=1SFVkhyLUxZw0bCA38ZP6J4tEuXc&hl=en" alt="Sunny">
+
+                <div class="phn">
+                    
+                    <div class="volume">
+                        <div class="phone">
+                            <i class="fa-solid fa-phone-volume"></i>
+                        </div>
+                        <div class="number">
+                            <p>010-020-0340</p>
+                            <p id="set">Phone Number</p>
+                        </div>
+                    </div>
+
+                    <div class="volume">
+                        <div class="phone">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="number">
+                            <p>info@villa.co</p>
+                            <p id="set">Business Email</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+           
+            <form>
+                <div class="form">
+                    <div class="place">
+                     <label for="name">Full Name</label>
+                    <input type="text" name="textfiel" 
+                    id="name" placeholder="Your Name...">
+                    </div>
+     
+                    <div class="place">
+                     <label for="email">Email Address</label>
+                     <input type="email" id="mail" placeholder="Your E-mail" >
+                    </div>
+                    <div class="place">
+                     <label for="subject">subject</label>
+                     <input type="text"      placeholder="subject" id="subject">
+                    </div>
+                    <div class="place">
+                     <label for="message">Message</label>
+                     <textarea name="message" id="comment1" cols="30" rows="5"></textarea>
+                    </div>
+                    <div class="send">
+                     <button>
+                         Send Message
+                     </button>
+                    </div>
+                 </div>
+
+            </form>
+           
+            
+
+        </div>
+
+        
+        <footer class="foot">
+            <div class="Copyright">
+                <p>Copyright <i class="fa-solid fa-copyright"></i> 2048 Villa Agency Co.Ltd. All right reversed. Design: TemplateMo</p>
+            </div>
+        </footer>
+       
     </div>
-    <script src="scripts.js"></script>
-  </body>
+    <!-- <script src = "villla.js"></script> -->
+    
+</body>
 </html>
